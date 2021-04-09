@@ -37,13 +37,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   //List<Pizza> pizzasInOrder = new List();
-
   PizzaOrder pizzaOrder = new PizzaOrder();
-
-  _MyHomePageState() {
-    //pizzasInOrder[0] = new Pizza("Large", 1);
-    //pizzasInOrder.add(new Pizza("Small", 1));
-  }
 
   void _addPizza() {
     showDialog(
